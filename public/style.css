@@ -1,0 +1,721 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section3_card_top_section h4 {
+  /* background: #FD7F19; */
+  margin: 0;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  text-align: center;
+  border-radius: 50px;
+  color: #FD7F19;
+  font-weight: bold;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 19px;
+}
+
+.TeamLevel p,
+.section3_card_top_section h4{
+  color:#1a8bff !important
+}
+
+.section2_left a, .section2_right_btn_contant a,.section3_card_last_section_right a{
+  background-color: #1a8bff !important;
+}
+
+img.saidbar_icon.saidbar_icon2,
+img.saidbar_icon {
+  filter: invert(1) !important;
+}
+
+img.logoicons {
+  width: 130px !important;
+  margin: 0 auto;
+}
+
+.table_title h3 {
+  font-size: 21px !important;
+  color: #FD7F19;
+}
+
+.referralAddress_sec3_inputfild::placeholder {
+  font-family: 'Plus Jakarta Sans';
+}
+
+/* navbar css toggle*/
+button.bars {
+  display: none;
+}
+
+/* Customizing the scrollbar */
+.table_section::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 4px; /* Height of the scrollbar */
+}
+
+/* Track */
+.table_section::-webkit-scrollbar-track {
+  background: #2A2D37; /* Color of the scrollbar track */
+}
+
+/* Handle */
+.table_section::-webkit-scrollbar-thumb {
+  background: #434850; /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners of the scrollbar handle */
+}
+
+/* Handle on hover */
+.table_section::-webkit-scrollbar-thumb:hover {
+  background: #434850; /* Color of the scrollbar handle on hover */
+}
+
+.pagination {
+  display: -ms-flexbox !important;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  justify-content: center;
+}
+
+
+.pagination_section_table {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 11px;
+}
+
+.close_btn_menu {
+  display: none;
+}
+
+
+body {
+  position: relative;
+}
+
+.table_title {
+  margin-top: 29px;
+  margin-bottom: 60px;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.table_title h3 {
+  font-family: 'Plus Jakarta Sans';
+  color: rgba(33, 160, 146, 1);
+  text-align: left;
+  font-size: 31px;
+}
+
+
+/* table css */
+.table_section table {
+  border-collapse: collapse;
+  width: 100%;
+  background: rgba(46, 50, 60, 0.6) !important;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  border-radius: 10px;
+}
+
+
+.table_section .table td, .table th {
+  padding: 0.75rem;
+  padding: 10px 21px;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(84, 135, 183, 0.08) !important;
+  white-space: nowrap;
+}
+
+.table_section .table th {
+  padding: 10px 21px;
+  vertical-align: top;
+  /* border-bottom: 1px solid #3c3d3e !important; */
+  border-top: 0px solid #dee2e6 !important;
+}
+
+.table_section {
+  width: 100%;
+  overflow: overlay;
+}
+
+
+button.bars,
+.close_btn_menu button {
+  background: rgba(7, 126, 113, 1);
+  color: white;
+  border: navajowhite;
+  padding: 7px 12px;
+  border-radius: 50%;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 241px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  padding: 1px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.sidebar a.active {
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.21), rgba(46, 50, 60, 0.6));
+  border-radius: 10px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.21), rgba(46, 50, 60, 0.6));
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+div.content {
+  margin-left: 240px;
+  padding: 1px 16px;
+  min-height: 1000px;
+  /* background: rgba(34, 38, 47, 1); */
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+img.saidbar_icon {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 26px;
+  height: 65px;
+}
+
+img.saidbar_icon.saidbar_icon2 {
+  width: 72px !important;
+  margin: 0 !important;
+}
+
+.Logo_icon {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 26px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.Logo_icon p {
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+.dashbord_connect_btn {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 34px;
+  position: relative;
+  width: 100%;
+  padding: 10px 4px;
+  align-items: center;
+  top: 0;
+}
+
+.dashbord_connect_btn_left h3 {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.dashbord_connect_btn_left p {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+.dashbord_connect_btn_right button {
+  background: rgba(61, 73, 100, 0.3);
+  border: navajowhite;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  padding: 13px 25px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.deshborde_section2_main {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.section2_left {
+  background: rgba(46, 50, 60, 0.6);
+  padding: 27px;
+  border-radius: 15px;
+  margin-right: 10px;
+  width: 48%;
+}
+
+.section2_left h2,
+.section2_right h2 {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.section2_left p {
+  font-family: 'Plus Jakarta Sans';
+}
+
+.section2_left p,
+.section2_right p {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.section2_right {
+  padding: 0;
+  border-radius: 15px;
+  width: 41%;
+  margin-right: 10px;
+}
+
+.TeamLevel h3 {
+  font-family: 'Plus Jakarta Sans';
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+
+.TeamLevel p {
+  font-family: 'Plus Jakarta Sans';
+  color: #FD7F19;
+  font-weight: 800;
+  font-size: 27px;
+  margin-top: 32px;
+}
+
+.TeamLevel.TeamLevel2 {
+  margin-bottom: 12px;
+}
+
+.TeamLevel {
+  background: rgba(46, 50, 60, 0.6);
+  padding: 19px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 128px;
+}
+.section2_left a, .section2_right_btn_contant a {
+  padding: 10px 10px;
+  background: #FD7F19;
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+@media(min-width:768px){
+  .section2_right_btn_contant {
+    width: 100%;
+    display: flex !important;
+  }
+}
+
+img.loderIMGE {
+  text-align: center;
+  position: absolute;
+  left: 46%;
+  right: 49%;
+  top: 50%;
+  bottom: 50%;
+}
+
+.section2_right_btn_contant a {
+  margin-right: 22px;
+}
+
+.deshbord_section3 {
+  width: 100%;
+  margin-top: 39px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section3_card {
+  background: rgba(84, 135, 183, 0.08);
+  padding: 20px;
+  border-radius: 19px;
+}
+
+.section3_card_top_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+img.user2icon {
+  background: rgba(33, 160, 146, 1);
+  padding: 9px;
+  border-radius: 50px;
+}
+
+.section3_card_top_section h5 {
+  font-family: 'Plus Jakarta Sans';
+}
+
+.section3_card_top_section h5 span {
+  margin-right: 8px;
+}
+
+.section3_card_last_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  flex-direction: column;
+}
+
+.section3_card_last_section_right {
+  display: inline-block;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.table_section p {
+  color: white;
+}
+
+.custom-toast{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+
+div#radix-\:r6\: {
+  font-family: 'Plus Jakarta Sans' !important;
+}
+
+input.referralAddress_sec3_inputfild {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  background-color: #22262f63;
+  border: 1px solid #ffffff36;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+}
+.section3_card_last_section_left p {
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.section3_card_last_section_left h4 {
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+
+.section3_card_last_section_right a {
+  background: #FD7F19;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  color: white;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+  
+  .section2_left {
+    width: 100%;
+}
+
+  .dashbord_connect_btn {
+    display: flex;
+    width: 70%;
+  }
+
+  .section2_right {
+    width: 100%;
+    display: flex;
+}
+
+.TeamLevel {
+  width: 47%;
+  float: left;
+  margin: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .dashbord_connect_btn {
+    width: 61%;
+  }
+
+  .deshborde_section2_main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+
+  .section2_left {
+    margin-right: 0;
+    margin-bottom: 21px;
+  }
+
+  .section3_card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .nav_bar_menu {
+    display: none;
+  }
+
+  img.logoicons {
+    width: 130px !important;
+    margin: 0;
+}
+
+  .close_btn_menu {
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+    margin: 12px 10px;
+  }
+
+
+  /* .menubarsss {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    width: 0%;
+    text-overflow: ellipsis;
+    background: #22262F;
+    opacity: 1;
+    padding: 11px;
+    z-index: 999999;
+    transition: width 2s;
+    transition-delay: 500ms;
+} */
+
+.sidebar a {
+  text-align: left;
+  margin: 0 10px !important;
+  width: 93% !important;
+}
+
+.menubarsss {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #22262F;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menubarsss a {
+  display: flex;
+  align-items: center; /* Add spacing between items */
+}
+
+.close_btn_menu a {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.close_btn_menu a > * {
+  margin-bottom: 10px; /* Add spacing between items */
+}
+
+.close_btn_menu  a{
+  margin-bottom: 20px; /* Adjust spacing between close button and other links */
+}
+
+
+
+
+
+
+  .dashbord_connect_btn {
+    width: 100%;
+    position: relative;
+    margin-top: -8px;
+  }
+
+  button.bars {
+    display: block;
+  }
+
+  .navbar_logo_and_toggle {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .sidebar a {
+    width: 100%;
+  }
+
+  .deshborde_section2_main {
+    margin-top: 23px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .menubarsss {
+    width: 57%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dashbord_connect_btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+  .section2_right_btn_contant a {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 7px;
+  }
+
+  .section2_right_btn_contant a {
+    display: flex;
+    flex-wrap: wrap !important;
+  }
+
+  .sidebar a {
+    text-align: left;
+  }
+
+  .dashbord_connect_btn_right {
+    margin-top: 16px;
+  }
+
+
+  .menubarsss {
+    width: 100%;
+}
+}
+
+
+.seven_box_dashboard {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  .seven_box_dashboard {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust 300px as needed */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .seven_box_dashboard {
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Full width for tablets */
+  }
+}
+
+.little_title{
+  margin-top: 3px;
+}
+
+.little_box{
+  display: flex !important;
+  gap: 10px !important;
+  margin-top: 20px !important;
+  width: 206px !important;
+}
+
+
+body iframe#webpack-dev-server-client-overlay{
+  display: none !important ;
+  position: static !important;
+}
